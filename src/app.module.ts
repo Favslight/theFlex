@@ -12,6 +12,7 @@ import { OrdersModule } from './orders/orders.module';
 import { ProductsModule } from './products/products.module';
 import { InvestmentsModule } from './investments/investments.module';
 import { PaystackModule } from './paystack/paystack.module';
+import { CloudinaryModule } from './cloudinary/cloudinary.module';
 
 @Module({
   imports: [
@@ -22,6 +23,7 @@ import { PaystackModule } from './paystack/paystack.module';
     EmailModule,
     OrdersModule,
     ProductsModule,
+    CloudinaryModule,
     InvestmentsModule,
     PaystackModule,
   ],
